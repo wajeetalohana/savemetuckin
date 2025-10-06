@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consent & Privacy</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+    .container { max-width: 700px; margin: 40px auto; padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
+    h1 { font-size: 24px; margin-bottom: 20px; }
+    h2 { font-size: 18px; margin-top: 20px; }
+    ul { padding-left: 20px; }
+    .red { color: red; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Consent & Privacy (v1.0)</h1>
+
+    <h2>By using this app, you consent to:</h2>
+    <ul>
+      <li>Collection of your name, email, address, and location data.</li>
+      <li>Use of this data for listings, messaging, and app functionality.</li>
+      <li>Sharing your information only when required for transactions.</li>
+    </ul>
+
+    <h2>Your Responsibilities:</h2>
+    <ul>
+      <li>You are responsible for the accuracy of your information. Please be careful when sharing personal details.</li>
+      <li>We can use email for marketing purposes.</li>
+      <li>If you already have a business or intent to set one up, this app is not for you. You must follow rules in your country.</li>
+      <li>In case of any breach in lawsuit then you are responsible for consequences.</li>
+    </ul>
+
+    <h2>Listings & Account:</h2>
+    <ul>
+      <li>You may view, update, or delete your listings at any time.</li>
+      <li>You may delete your account and all related data at any time.</li>
+    </ul>
+
+    <h2>Messaging:</h2>
+    <ul>
+      <li>For chats with a single user, only the latest 25 (100 for Premium user) messages are stored.</li>
+    </ul>
+
+    <h2 class="red">Safety Note:</h2>
+    <ul>
+      <li>We do not validate addresses; the company is not responsible for issues arising from incorrect or misleading information.</li>
+    </ul>
+  </div>
+</body>
+</html>
