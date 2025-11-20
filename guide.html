@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>App Guide — How to use Home, My Post, Messaging, Profile & Premium</title>
+  <title>App Guide — How to use Home, My Post, Messaging, Profile </title>
   <style>
     body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.6; margin:0; padding:0; background:#f7f8fa; color:#111;}
     header { background:#0f172a; color:#fff; padding:24px 20px; }
@@ -25,7 +25,7 @@
 </head>
 <body>
   <header>
-    <h1>App Quick-Guide — Home • My Post • Messaging • Profile • Premium • WG Bot</h1>
+    <h1>App Quick-Guide — Home •  Inbox • My Post • Profile  • WG Bot</h1>
   </header>
 
   <main class="container">
@@ -34,13 +34,12 @@
       <a class="navlink" href="#my-posts">My Post (Create Item)</a>
       <a class="navlink" href="#message">Send Message</a>
       <a class="navlink" href="#profile">User Profile</a>
-      <a class="navlink" href="#premium">Upgrade to Premium</a>
       <a class="navlink" href="#wg-bot">WG Bot</a>
     </nav>
 
     <section id="intro">
       <h2>Overview</h2>
-      <p>This page is a small, user-facing guideline describing the main app screens and flows. It is intentionally simple — feel free to edit and expand it for your GitHub repo or documentation site.</p>
+      <p>This page is a user-facing guideline describing the main app screens and flows.</p>
     </section>
 
     <section id="home">
@@ -48,11 +47,9 @@
       <div class="card">
         <p>The <strong>Home</strong> tab is the main discovery screen. Typical elements include:</p>
         <ul>
-          <li><strong>Welcome / Quick actions</strong> — greeting and shortcuts (e.g., "Register Item").</li>
-          <li><strong>Listings feed</strong> — recent items posted by users (often sorted by distance, time, or relevance).</li>
-          <li><strong>Filters / Search bar</strong> — let users filter by category, price, distance, or keywords.</li>
-          <li><strong>Map or Nearby results</strong> — optional: show results on a map and highlight items within a radius (e.g., 2 km).</li>
-          <li><strong>Notifications / Announcements</strong> — global alerts like new features or account notices.</li>
+          <li><strong>Welcome / Quick actions</strong> — greeting.</li>
+          <li><strong>Listings feed</strong> — recent items posted by users within  a radius (2 km)</li>
+          <li><strong>Filters / Search bar</strong> — let users filter by keywords.</li>
         </ul>
 
         <div class="step">
@@ -60,7 +57,7 @@
           <ol>
             <li>Open Home → see nearby or recent posts.</li>
             <li>Tap a post to view details (photos, description, price, expiry).</li>
-            <li>From post details: message seller, save to favorites, or get directions.</li>
+            <li>From post details: message seller</li>
           </ol>
         </div>
       </div>
@@ -69,7 +66,7 @@
     <section id="my-posts">
       <h2>My Post Tab — How to create an item</h2>
       <div class="card">
-        <p>This tab lists items you personally posted and includes a button to create a new item. Steps to create an item:</p>
+        <p>This tab lists items you personally posted and includes a button (+) to create a new item. Steps to create an item:</p>
 
         <div class="step">
           <strong>1) Locating & starting</strong>
@@ -100,12 +97,12 @@
         </div>
 
         <div class="warning">
-          <strong>Tip:</strong> Double-check photos and description before publishing. Use clear photos and include pickup/delivery instructions to reduce back-and-forth messages.
+          <strong>Tip:</strong> Double-check photos and description before publishing.
         </div>
       </div>
     </section>
 
-    <section id="message">
+    <section id="message/inbox">
       <h2>Sending a message to any post</h2>
       <div class="card">
         <p>Messaging is private and tied to the post. Basic flow:</p>
@@ -114,9 +111,9 @@
           <strong>From Home or Post details:</strong>
           <ol>
             <li>Open the post you are interested in.</li>
-            <li>Tap <kbd class="kbd">Send Message</kbd> (or <kbd class="kbd">Contact</kbd>).</li>
+            <li>Tap <kbd class="kbd">Send Message</kbd>.</li>
             <li>Type your message — introduce yourself, reference the post title, propose a time or ask a question.</li>
-            <li>Send. The other user receives a notification (push/email depending on settings).</li>
+            <li>Send. The other user receives a notification .</li>
           </ol>
         </div>
 
@@ -124,7 +121,7 @@
           <strong>Messaging constraints & good practices</strong>
           <ul>
             <li>Be polite and include the post title in your first message (helps seller manage replies).</li>
-            <li>If the app limits messages per day (e.g., 10/day) or auto-deletes messages after a time, you'll see a warning before sending.</li>
+            <li>If the app limits messages per day (e.g., 25/day) or auto-deletes messages after a time, you'll see a warning before sending.</li>
             <li>Messages are stored under a private chat linked to the item.</li>
           </ul>
         </div>
@@ -132,8 +129,7 @@
         <div class="step">
           <strong>From My Post (as poster):</strong>
           <ol>
-            <li>Open your post → view incoming messages from interested users.</li>
-            <li>Tap any message to reply, set status (e.g., "Reserved"), or mark as read.</li>
+            <li>Open your inbox → view incoming messages from interested users.</li>
           </ol>
         </div>
       </div>
@@ -142,75 +138,34 @@
     <section id="profile">
       <h2>User Profile</h2>
       <div class="card">
-        <p>Profile contains your personal information and account settings. Common fields & actions:</p>
+        <p>Profile contains your personal information and steps to upgrading account to premium:</p>
         <ul>
-          <li><strong>Display name / Photo</strong> — visible to other users in chats.</li>
-          <li><strong>Email / Phone</strong> — used for login and notifications (verify email for trust).</li>
-          <li><strong>Verified badge</strong> — optional verification controls posting privileges.</li>
-          <li><strong>My Posts</strong> — shortcut to manage your listings.</li>
-          <li><strong>Settings</strong> — notification preferences, privacy, delete account, sign out.</li>
+          <li><strong>Display name </strong> — visible to other users in chats.</li>
+          <li><strong>Email </strong> — used for login and notifications (verify email for trust).</li>
+          <li><strong>Upgrade to premium </strong> — a button to upgrade account to use premium feature.</li>
+          <li><strong>Delete account </strong> — a button to delete account.</li>
         </ul>
 
-        <div class="step">
-          <strong>Editing profile</strong>
-          <ol>
-            <li>Open Profile → Tap <kbd class="kbd">Edit</kbd>.</li>
-            <li>Change display name, upload photo, update contact (note: don't store passwords in plain text).</li>
-            <li>Save changes — these propagate to your messages and posts.</li>
-          </ol>
-        </div>
-      </div>
-    </section>
-
-    <section id="premium">
-      <h2>Upgrade to Premium</h2>
-      <div class="card">
-        <p>Premium plans usually unlock additional features. Example premium features:</p>
-        <ul>
-          <li>Priority listing or pinning to top of feed.</li>
-          <li>Unlimited messages or higher daily message limits.</li>
-          <li>Ad-free experience.</li>
-          <li>Access to analytics or 'who viewed my post'.</li>
-        </ul>
-
-        <div class="step">
+           <div class="step">
           <strong>How to upgrade</strong>
           <ol>
-            <li>Go to Profile → <kbd class="kbd">Upgrade</kbd> or <kbd class="kbd">Subscriptions</kbd>.</li>
-            <li>Choose a plan (monthly / yearly), review price and terms.</li>
-            <li>Complete payment through the platform's payment flow (App Store / Google Play / web). Keep receipts for billing.</li>
+            <li>Go to Profile → <kbd class="kbd">Upgrade</kbd>.</li>
+            <li> review price and terms.</li>
+            <li>Complete payment through the platform's payment flow (App Store. Keep receipts for billing.</li>
             <li>After successful payment, account gets premium privileges immediately (or after a short verification process).</li>
           </ol>
         </div>
-
+      </div>
         <div class="warning">
           <strong>Important:</strong> On iOS, subscription / in-app purchase settings must be configured in App Store Connect. If you manage server-side entitlements, ensure your subscription verification logic (receipt validation) is secure.
         </div>
-      </div>
     </section>
+
 
     <section id="wg-bot">
       <h2>WG Bot — what this might mean & how it could work</h2>
       <div class="card">
-        <p>The phrase <strong>"WG Bot"</strong> can mean different things depending on context. Below are common interpretations and how a bot like this might integrate with your app:</p>
-
-        <ul>
-          <li><strong>WireGuard (wg) assistant bot:</strong> a server-side automation that manages WireGuard VPN clients (create keys, QR codes). If you mean this, it’s usually admin-facing rather than something users interact with for posts.</li>
-          <li><strong>WG-gesucht bot (housing helper):</strong> a scraper & auto-messaging helper that finds housing posts and can auto-send templated messages — caution: scraping/automated messaging may violate site policies or local laws.</li>
-          <li><strong>Working Group / "wg" chat bot:</strong> an assistant in group chats for moderation, quick replies, auto-FAQ or onboarding for users.</li>
-        </ul>
-
-        <div class="step">
-          <strong>If you want a "WG Bot" feature in your app:</strong>
-          <ol>
-            <li>Decide the purpose (moderation, onboarding, auto-replies, system notifications, or admin tasks).</li>
-            <li>Design simple commands and scope (what it can/cannot do). Example: <code>/help</code>, <code>/report 123</code>, or automatic "new-post" push messages.</li>
-            <li>Ensure transparency — label automated messages clearly (e.g., "WG Bot — automated message").</li>
-            <li>Respect privacy and legal rules — do not auto-contact external services without permission; avoid spamming users.</li>
-          </ol>
-        </div>
-
-        <p class="warning">If you meant something specific by "wg bot", say "WireGuard bot" or "WG-gesucht bot" and I can tailor the guide with concrete examples and code snippets.</p>
+        <p><strong>"WG Bot"</strong> is a simple chat bot which can tell you joke or quote of the day. You can also ask simple things like post, crate item, block user... </p>
       </div>
     </section>
 
@@ -226,10 +181,6 @@
       </div>
     </section>
 
-    <footer>
-      <div>© Guide — copy, adjust, and host this file on GitHub. Suggested filename: <code>guide-create-item.html</code></div>
-      <div style="margin-top:8px; font-size:12px;">To publish: Add this file to your repository root (or `docs/`) and enable GitHub Pages if you want a simple website.</div>
-    </footer>
   </main>
 </body>
 </html>
